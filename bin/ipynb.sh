@@ -1,3 +1,7 @@
 #!/bin/bash
+
 export PYTHONPATH=$PYTHONPATH:$HOME/bin
-ipython3 notebook --matplotlib=inline --pprint
+
+pushd /home/oceano/notebooks
+  ipython3 notebook --matplotlib=inline --pprint
+popd
